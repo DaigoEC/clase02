@@ -1,11 +1,22 @@
+/* import { Co } from "./Contador" */
+import { Trabajo } from "./Trabajo"
 function App() {
 
   return (
     <>
-      <div>
-        <h1 className="text-blue-300">Aprendiendo</h1>
+      <div className="bg-lime-200 h-full w-full">
+        <h1 className="text-lime-800 text-7xl">Aprendiendo</h1>
       </div>
     </>
+  )
+}
+
+function Contador(){
+  const number = 5
+  return (
+    <div>
+      {number}
+    </div>
   )
 }
 
