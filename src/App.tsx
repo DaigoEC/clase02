@@ -3,7 +3,7 @@ function App() {
   return (
     <>
       <div>
-        <h1 className="text-blue-300">Aprendiendo React</h1>
+        <h1 className="text-blue-300">Aprendiendo</h1>
       </div>
     </>
   )
