@@ -1,4 +1,4 @@
-/* import { Co } from "./Contador" */
+import { Contador } from "./Contador"
 import { Trabajo } from "./Trabajo"
 function App() {
 
@@ -6,19 +6,21 @@ function App() {
     <>
       <div className="bg-lime-200 h-full w-full">
         <h1 className="text-lime-800 text-7xl">Aprendiendo</h1>
+        <Contador/>
+        <Trabajo/>
       </div>
     </>
   )
 }
 
-function Contador(){
+/* function Contador(){
   const number = 5
   return (
     <div>
       {number}
     </div>
   )
-}
+} */
 
 export default App
 
